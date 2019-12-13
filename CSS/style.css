@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: linear-gradient(to right,#23d20b,#00d4ff);
+}
+.forma{
+	display: block;
+	border: groove 2px black;
+	margin:  10px 20px;
+	padding: 20px;
+	width: 50%;
+	height: 50%;
+	background-color: #008080;
+}
+.forma input{
+	margin: 5px;
+}
+#userslika{
+	width: 100px;
+	height: 100px;
+	border: 1px none;
+	border-radius: 50px;
+}
+#reg{
+	width: 100px;
+	height: 100px;
+	border: 1px none;
+	border-radius: 50px;
+}
+#go:hover {
+	background-color: green;
+}
+#reset:hover {
+	background-color: red;
+}
+ul 
+{
+list-style-type: none;
+padding:0; 
+}
+li
+{
+display:inline-block;
+margin-right:1px;
+}
+li a 
+{
+display:block;
+width:100px;
+height:50px;
+text-align:center;
+line-height:50px;
+font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+color:#fff;
+background:#2f3036;
+text-decoration:none;
+border-radius: 15px;
+font-size: 22px;
+}
+li:hover a{
+background:#19c589;
+}
+
+.nav{
+	margin: 0 auto;
+	width: 450px;
+}
+.navbar{
+	background:#2f3036;
+}
+#odjava{
+float: right;
+display:block;
+width:140px;
+height:50px;
+line-height:50px;
+font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+color:#fff;
+background:#2f3036;
+border-radius: 15px;
+border: none;
+font-size: 22px;
+}
+#odjava:hover{
+background:#19c589;
+
+}
+.navbar p{
+	color: white;
+	display: inline;
+	float: left;
+	font-size: 30px;
+	letter-spacing: .1em;
+	line-height: 50px;
+	font-style: italic;
+	margin-left: 20px;
+}
+.kontenjer {
+	border: 2px solid #FF4500;
+	background-color: #4B0082;
+	color: white;
+	width: 1100px;
+	margin: 20px 20px;
+
+}
+.kontenjer p{
+	display:inline-block;
+	margin: 3px;
+}
+.kontenjer a{
+	background-color: green;
+	text-decoration: none;
+ 	color: white;
+ 	box-shadow: 0 5px 0 darkgreen;
+ 	text-align: center;
+ 	line-height: 15px;
+ 	padding-bottom: 5px;
+ 	float: right;
+}
+.kontenjer a:hover{
+	background-color: yellow;
+	box-shadow: none;
+}
+.novi{
+	text-decoration: none;
+	margin: auto;
+	font-size: 45px;
+
+}
+
+
+.footer{
+	background: #2f3036;;
+	color:white;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-family: verdana;
+	padding:10px 15px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 467px;
+
+}
+footer p{
+	display: inline;
+}
+.tabela{
+	margin:auto;
+	margin-top: 50px;
+	border-collapse: collapse;
+	background-color: #DAA520;
+	width: 80%;
+}
+.tabela th{
+	height: 50px;
+	width: 100px;
+}
+.tabela td{
+	text-align: center;
+}
+tr:hover{
+	background-color: #FFA500;
+	color: white;
+}
+.pretabele{
+	font-size: 35px;
+	margin-left:  565px;
+	margin-top: 50px;
+
+}
+#pretrazivac{
+	margin-left: 1000px;
+	margin-top: 30px;
+}
+#pretrazivac input:hover{
+	border: 1px solid blue;
+}
+.prikaz{
+	width: 45%;
+	height: 700px;
+	font-size: 20px;
+	display: inline-block;
+	float: left;
+	box-sizing: border-box;
+	background-color: gold;
+	border: 2px groove green;
+	margin:20px;
+	overflow: hidden;
+}
+.prikaz input[type='text']{
+	visibility: hidden;
+}
+.slika{
+	width: 100%;
+	height: 300px;
+}
+#svojstan{
+	background-color: 	#5F9EA0;
+	box-sizing: border-box;
+	width: 75px;
+	height: 45px;
+	text-align:center;
+	text-decoration: none;
+	margin: auto;
+	box-shadow: 3px 3px #191970;
+
+}
+#svojstan a{
+	text-decoration: none;
+	color: 	white;
+}
+#svojstan:hover{
+	box-shadow: none;
+}
+.novstan{
+	background-color: #006400;
+	color: white;
+	width: 500px;
+	height: 400px;
+	margin-top: 30px;
+}
+.novstan input,.novstan select,.novstan button{
+display: block;
+margin: 10px;
+
+}
+.novstan select{
+	width: 300px;
+}
+#uploadslike{
+	margin-top: 20px;
+}
